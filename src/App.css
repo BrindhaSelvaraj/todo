@@ -1,0 +1,68 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.input-container input,
+.input-container select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Make input fields and select box full width */
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional CSS for body background */
+body {
+  background: linear-gradient(135deg, #FFC0CB, #FFFF00);
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+}
+/* styles.css */
+.card {
+  background-color: #ffffff; /* White background */
+  border: none; /* No border */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Larger title font size */
+}
+
+.card-text {
+  font-size: 1rem; /* Normal text font size */
+}
+
+/* Shadow color set to blue */
+.shadow-lg {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 255, 0.15) !important;
+}
+
+/* Center align text in card body */
+.card-body {
+  text-align: center;
+}
+.form-container {
+  text-align: center;
+}
+
+.form-container input {
+  margin-right: 10px;
+}
