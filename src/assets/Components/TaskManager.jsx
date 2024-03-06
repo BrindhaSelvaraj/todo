@@ -51,6 +51,7 @@ const TaskManager = () => {
 
   return (
     <div>
+      <h1 style={{textAlign:'center'}}>MY ToDo</h1>
       <div style={{ marginBottom: '20px', display: 'flex', justifyContent: 'space-between' }}>
         <div>
           <AddTaskForm onAddTask={handleAddTask} />
